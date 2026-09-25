@@ -2,6 +2,27 @@
 Changelog for package audio_play
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#284 <https://github.com/ros-drivers/audio_common/issues/284>`_ from tomkimsour/fix/tun/deprecated-callback-sub-declaration
+  make onAudio cb use references of message instead of shared ptr
+* make onAudio cb use references of message instead of shared ptr
+* Merge pull request `#281 <https://github.com/ros-drivers/audio_common/issues/281>`_ from wentasah/pkg-config
+  Depend on pkg-config where needed
+* Merge pull request `#282 <https://github.com/ros-drivers/audio_common/issues/282>`_ from wentasah/cmake-gstreamer-plugins-base
+  Find and use gstreamer-plugins-base-1.0
+* Find and use gstreamer-plugins-base-1.0
+  Without this, I'm getting errors like:
+  /build/audio_common-release-release-humble-audio_play-0.4.0-2/src/audio_play_node.cpp:2:10:
+  fatal error: gst/app/gstappsrc.h: No such file or directory
+  2 | #include <gst/app/gstappsrc.h>
+  |          ^~~~~~~~~~~~~~~~~~~~~
+* Depend on pkg-config where needed
+  Packages audio_play and audio_capture need pkg-config, i.e. they have
+  find_package(PkgConfig) in CMakeLists.txt. Therefore they should
+  declare it as dependency.
+* Contributors: Michal Sojka, Shingo Kitagawa, thomasung
+
 0.4.0 (2026-04-14)
 ------------------
 * Merge pull request `#267 <https://github.com/ros-drivers/audio_common/issues/267>`_ from knorth55/ros2-fix-rolling

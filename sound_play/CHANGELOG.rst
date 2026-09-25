@@ -2,6 +2,37 @@
 Changelog for package sound_play
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#287 <https://github.com/ros-drivers/audio_common/issues/287>`_ from tomkimsour/fix/make-sound-play-action-cancel
+  make soundplay_node cancel
+* Merge pull request `#286 <https://github.com/ros-drivers/audio_common/issues/286>`_ from tomkimsour/fix/remove-wrong-detroyer-call
+  remove destroy timer from SoundType object
+* make soundplay_node cancel
+* remove destroy timer from SoundType object
+* Merge pull request `#277 <https://github.com/ros-drivers/audio_common/issues/277>`_ from tomkimsour/port_sound_play_h_to_ros2
+  Port sound_play.h to ros2
+* remove unused cmake rules
+* fix formatting mistake
+* declare rclpp as build export depend and remove unused build dep
+* Update sound_play/include/sound_play/sound_play.hpp
+  Co-authored-by: Shingo Kitagawa <knorth55@users.noreply.github.com>
+* revert formatting
+* remove linting and format
+* add cmake auto depenedency
+* bump cmake version to humble default cmake version
+* add mock test
+* add comment to what arguments do
+* remove mutex and replace quiet with atomic, also remove check for the node as it is build from the constructor
+* add some remarks on the code
+* add test template
+* add sound play msgs dependency and tests with ament_cmake_auto
+* rename sound_play.h to hpp file following ros2 cpp guidelines
+* fix xmllint
+* Port sound_play.h to ROS2
+* Split sound_play interface out into sound_play_msgs package
+* Contributors: Roland Arsenault, Shingo Kitagawa, Thomas Ung, thomasung
+
 0.4.0 (2026-04-14)
 ------------------
 * Merge pull request `#267 <https://github.com/ros-drivers/audio_common/issues/267>`_ from knorth55/ros2-fix-rolling
