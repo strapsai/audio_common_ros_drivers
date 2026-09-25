@@ -2,8 +2,8 @@
 Changelog for package audio_play
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.1 (2026-09-24)
+------------------
 * Merge pull request `#284 <https://github.com/ros-drivers/audio_common/issues/284>`_ from tomkimsour/fix/tun/deprecated-callback-sub-declaration
   make onAudio cb use references of message instead of shared ptr
 * make onAudio cb use references of message instead of shared ptr

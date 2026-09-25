@@ -2,8 +2,8 @@
 Changelog for package sound_play
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.1 (2026-09-24)
+------------------
 * Merge pull request `#287 <https://github.com/ros-drivers/audio_common/issues/287>`_ from tomkimsour/fix/make-sound-play-action-cancel
   make soundplay_node cancel
 * Merge pull request `#286 <https://github.com/ros-drivers/audio_common/issues/286>`_ from tomkimsour/fix/remove-wrong-detroyer-call

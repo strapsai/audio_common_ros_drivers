@@ -2,8 +2,8 @@
 Changelog for package audio_capture
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.1 (2026-09-24)
+------------------
 * Merge pull request `#281 <https://github.com/ros-drivers/audio_common/issues/281>`_ from wentasah/pkg-config
   Depend on pkg-config where needed
 * Merge pull request `#282 <https://github.com/ros-drivers/audio_common/issues/282>`_ from wentasah/cmake-gstreamer-plugins-base
